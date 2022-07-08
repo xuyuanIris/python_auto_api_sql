@@ -1,0 +1,67 @@
+---
+#测试用例名称
+case_name: 登簿量统计-按年
+#url地址
+url: /estate-register-server/api/statistics/getDBBusinessTotal
+#请求内容
+request:
+  #请求方法
+  method: post
+    #请求参数
+  params:
+    startDay: 2022-01-01
+    endDay: 2022-12-31
+    regionCode: 640502
+    areaCode: 640502
+  headers:
+    User-Agent: apifox/1.0.0 (https://www.apifox.cn)
+    Cookie: Cookie=JSESSIONID=CFEC720F613AC9D73E20E1C8B82B26D8; BDC_REGISTER=N1BucGpSM2tuMVNYMDQ4Rit1ZXNhYWVjSEdkVnFLbS9kb1pzVGdLTnExRllKMUhtNW5HRyttZ05lQ3hReExDazhYRjhxL2ZXdzNnMHczL2d2T0ZMZk5UbjhINzhiWWhzP2FwcEtleT1lNDk0MTk3YWMyNGM0NDgwYjc4Y2I2NmZjOTdhY2NjNg%3D%3D; clientServerToken=bXNUcWlvMzYwLzVyMENGb1NNcXBaRkExQVRQTSt4T2p0ZWs2dFBhMHJlMlpGVFpUWXMwRHVNZWFONDlrMTlvdWZSNS8rWG5GMUh5eEZaZDZGRG1NR0hCaDllSzFPdXhDP2FwcEtleT03ODJlODk3NmIwYzA0MWUyODUyODk3MzY4YTEyNjE2Yg%3D%3D
+  #期望结果
+expect:
+  code: 200
+---
+#测试用例名称
+case_name: 登簿量统计-按月
+#url地址
+url: /estate-register-server/api/statistics/getDBBusinessTotal
+#请求内容
+request:
+  #请求方法
+  method: post
+  #请求参数
+  params:
+    startDay: 2022-05-24
+    endDay: 2022-06-24
+    regionCode: 640502
+    areaCode: 640502
+  headers:
+    User-Agent: apifox/1.0.0 (https://www.apifox.cn)
+    Cookie: Cookie=JSESSIONID=CFEC720F613AC9D73E20E1C8B82B26D8; BDC_REGISTER=N1BucGpSM2tuMVNYMDQ4Rit1ZXNhYWVjSEdkVnFLbS9kb1pzVGdLTnExRllKMUhtNW5HRyttZ05lQ3hReExDazhYRjhxL2ZXdzNnMHczL2d2T0ZMZk5UbjhINzhiWWhzP2FwcEtleT1lNDk0MTk3YWMyNGM0NDgwYjc4Y2I2NmZjOTdhY2NjNg%3D%3D; clientServerToken=bXNUcWlvMzYwLzVyMENGb1NNcXBaRkExQVRQTSt4T2p0ZWs2dFBhMHJlMlpGVFpUWXMwRHVNZWFONDlrMTlvdWZSNS8rWG5GMUh5eEZaZDZGRG1NR0hCaDllSzFPdXhDP2FwcEtleT03ODJlODk3NmIwYzA0MWUyODUyODk3MzY4YTEyNjE2Yg%3D%3D
+  #期望结果
+expect:
+  code: 200
+---
+#测试用例名称
+case_name: 登簿量统计-按日
+#url地址
+url: /estate-register-server/api/statistics/getDBBusinessTotal
+#请求内容
+request:
+  #请求方法
+  method: post
+    #请求参数
+  params:
+    blr:
+    startDay: 2022-05-24
+    endDay: 2022-05-24
+    regionCode: 640502
+    areaCode: 640502
+  headers:
+    User-Agent: apifox/1.0.0 (https://www.apifox.cn)
+    Cookie: Cookie=JSESSIONID=CFEC720F613AC9D73E20E1C8B82B26D8; BDC_REGISTER=N1BucGpSM2tuMVNYMDQ4Rit1ZXNhYWVjSEdkVnFLbS9kb1pzVGdLTnExRllKMUhtNW5HRyttZ05lQ3hReExDazhYRjhxL2ZXdzNnMHczL2d2T0ZMZk5UbjhINzhiWWhzP2FwcEtleT1lNDk0MTk3YWMyNGM0NDgwYjc4Y2I2NmZjOTdhY2NjNg%3D%3D; clientServerToken=bXNUcWlvMzYwLzVyMENGb1NNcXBaRkExQVRQTSt4T2p0ZWs2dFBhMHJlMlpGVFpUWXMwRHVNZWFONDlrMTlvdWZSNS8rWG5GMUh5eEZaZDZGRG1NR0hCaDllSzFPdXhDP2FwcEtleT03ODJlODk3NmIwYzA0MWUyODUyODk3MzY4YTEyNjE2Yg%3D%3D
+  #期望结果
+expect:
+  code: 200
+
+
+

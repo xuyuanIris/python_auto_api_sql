@@ -1,0 +1,68 @@
+---
+#测试用例名称
+case_name: 登记证书打印总量分析-按年
+#url地址
+url: /estate-register-server/api/statistics/getCertificateTotalByQllx
+#请求内容
+request:
+  #请求方法
+  method: post
+    #请求参数
+  params:
+    startDay: 2022-01-01
+    endDay: 2022-12-31
+    regionCode: 640502
+    areaCode: 640502
+  headers:
+    User-Agent: apifox/1.0.0 (https://www.apifox.cn)
+    #    Cookie: Cookie=JSESSIONID=CFEC720F613AC9D73E20E1C8B82B26D8; BDC_REGISTER=N1BucGpSM2tuMVNYMDQ4Rit1ZXNhYWVjSEdkVnFLbS9kb1pzVGdLTnExRllKMUhtNW5HRyttZ05lQ3hReExDazhYRjhxL2ZXdzNnMHczL2d2T0ZMZk5UbjhINzhiWWhzP2FwcEtleT1lNDk0MTk3YWMyNGM0NDgwYjc4Y2I2NmZjOTdhY2NjNg%3D%3D; clientServerToken=bXNUcWlvMzYwLzVyMENGb1NNcXBaRkExQVRQTSt4T2p0ZWs2dFBhMHJlMlpGVFpUWXMwRHVNZWFONDlrMTlvdWZSNS8rWG5GMUh5eEZaZDZGRG1NR0hCaDllSzFPdXhDP2FwcEtleT03ODJlODk3NmIwYzA0MWUyODUyODk3MzY4YTEyNjE2Yg%3D%3D
+    Cookie: JSESSIONID=1C2B82A7D7A49BD83FD6A1ED47A1A4CD; BDC_REGISTER=N1BucGpSM2tuMVNYMDQ4Rit1ZXNhYUVhc2Y3amIxMFVLVnd5SXNnVmlwUzZENHFXUGhzb040cUw2bmFDdUNNZ1NaKzVOOG5CUHVOWm4rc29USi8yVm9hSHN1ZkRHSHlSdGVhelpndE5CM1k9P2FwcEtleT1lNDk0MTk3YWMyNGM0NDgwYjc4Y2I2NmZjOTdhY2NjNg%3D%3D; clientServerToken=bXNUcWlvMzYwLzVyMENGb1NNcXBaRWkyWEQvV0tyRWNSTHlQSXBkemlwaFB2b1pROTZ6TEgyTERNU1FIYzBza3E4U0I4c1hMZ3VNaHRaNnZtb3o4S3JqV2RUL0plR09XMXlNL0k4SFJZS2c9P2FwcEtleT03ODJlODk3NmIwYzA0MWUyODUyODk3MzY4YTEyNjE2Yg%3D%3D; UNIQUEID=8554641656032847803
+  #期望结果
+expect:
+  code: 200
+---
+#测试用例名称
+case_name: 登记证书打印总量分析-按月
+#url地址
+url: /estate-register-server/api/statistics/getCertificateTotalByQllx
+#请求内容
+request:
+  #请求方法
+  method: post
+  #请求参数
+  params:
+    startDay: 2022-04-01
+    endDay: 2022-04-30
+    regionCode: 640502
+    areaCode: 640502
+  headers:
+    User-Agent: apifox/1.0.0 (https://www.apifox.cn)
+    #    Cookie: Cookie=JSESSIONID=CFEC720F613AC9D73E20E1C8B82B26D8; BDC_REGISTER=N1BucGpSM2tuMVNYMDQ4Rit1ZXNhYWVjSEdkVnFLbS9kb1pzVGdLTnExRllKMUhtNW5HRyttZ05lQ3hReExDazhYRjhxL2ZXdzNnMHczL2d2T0ZMZk5UbjhINzhiWWhzP2FwcEtleT1lNDk0MTk3YWMyNGM0NDgwYjc4Y2I2NmZjOTdhY2NjNg%3D%3D; clientServerToken=bXNUcWlvMzYwLzVyMENGb1NNcXBaRkExQVRQTSt4T2p0ZWs2dFBhMHJlMlpGVFpUWXMwRHVNZWFONDlrMTlvdWZSNS8rWG5GMUh5eEZaZDZGRG1NR0hCaDllSzFPdXhDP2FwcEtleT03ODJlODk3NmIwYzA0MWUyODUyODk3MzY4YTEyNjE2Yg%3D%3D
+    Cookie: JSESSIONID=1C2B82A7D7A49BD83FD6A1ED47A1A4CD; BDC_REGISTER=N1BucGpSM2tuMVNYMDQ4Rit1ZXNhYUVhc2Y3amIxMFVLVnd5SXNnVmlwUzZENHFXUGhzb040cUw2bmFDdUNNZ1NaKzVOOG5CUHVOWm4rc29USi8yVm9hSHN1ZkRHSHlSdGVhelpndE5CM1k9P2FwcEtleT1lNDk0MTk3YWMyNGM0NDgwYjc4Y2I2NmZjOTdhY2NjNg%3D%3D; clientServerToken=bXNUcWlvMzYwLzVyMENGb1NNcXBaRWkyWEQvV0tyRWNSTHlQSXBkemlwaFB2b1pROTZ6TEgyTERNU1FIYzBza3E4U0I4c1hMZ3VNaHRaNnZtb3o4S3JqV2RUL0plR09XMXlNL0k4SFJZS2c9P2FwcEtleT03ODJlODk3NmIwYzA0MWUyODUyODk3MzY4YTEyNjE2Yg%3D%3D; UNIQUEID=8554641656032847803
+  #期望结果
+expect:
+  code: 200
+---
+#测试用例名称
+case_name: 登记证书打印总量分析-按日
+#url地址
+url: /estate-register-server/api/statistics/getCertificateTotalByQllx
+#请求内容
+request:
+  #请求方法
+  method: post
+    #请求参数
+  params:
+    startDay: 2022-04-30
+    endDay: 2022-04-30
+    regionCode: 640502
+    areaCode: 640502
+  headers:
+    User-Agent: apifox/1.0.0 (https://www.apifox.cn)
+    Cookie: Cookie=JSESSIONID=CFEC720F613AC9D73E20E1C8B82B26D8; BDC_REGISTER=N1BucGpSM2tuMVNYMDQ4Rit1ZXNhYWVjSEdkVnFLbS9kb1pzVGdLTnExRllKMUhtNW5HRyttZ05lQ3hReExDazhYRjhxL2ZXdzNnMHczL2d2T0ZMZk5UbjhINzhiWWhzP2FwcEtleT1lNDk0MTk3YWMyNGM0NDgwYjc4Y2I2NmZjOTdhY2NjNg%3D%3D; clientServerToken=bXNUcWlvMzYwLzVyMENGb1NNcXBaRkExQVRQTSt4T2p0ZWs2dFBhMHJlMlpGVFpUWXMwRHVNZWFONDlrMTlvdWZSNS8rWG5GMUh5eEZaZDZGRG1NR0hCaDllSzFPdXhDP2FwcEtleT03ODJlODk3NmIwYzA0MWUyODUyODk3MzY4YTEyNjE2Yg%3D%3D
+   #期望结果
+expect:
+  code: 200
+
+
+

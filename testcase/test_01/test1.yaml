@@ -1,0 +1,21 @@
+#  登录测试用例
+---
+#测试用例名称
+case_name: 登录成功用例
+#url地址
+url: /gm-sso-server/login
+#http://172.19.214.55:8001/gm-sso-server/login?username=YCGLY&password=18STWfpl3BBVsO/PWGcqew==&service=http://172.19.214.55:8001/estate-ui/&appKey=BDC_REGISTER&captcha=y4wp5d
+#data
+request:
+  method: get
+  params:
+    username: ZWS
+    password: 2wqcR92ETMSiE3%2FYJK2%2BkA%3D%3D
+    service: /estate-ui/
+    appKey: BDC_REGISTER
+#期望结果
+expect:
+  code: 200
+  body:
+    success: true
+

@@ -1,0 +1,30 @@
+<environment>
+    <parameter>
+        <key>项目名称</key>
+        <value>test</value>
+    </parameter>
+    <parameter>
+        <key>Url</key>
+        <value> </value>
+    </parameter>
+    <parameter>
+        <key>系统</key>
+        <value>win10</value>
+    </parameter>
+    <parameter>
+        <key>python版本</key>
+        <value>3.7.4</value>
+    </parameter>
+    <parameter>
+        <key>allure版本</key>
+        <value>2.8.16</value>
+    </parameter>
+    <parameter>
+        <key>浏览器</key>
+        <value>Chrome</value>
+    </parameter>
+    <parameter>
+        <key>测试人员</key>
+        <value> </value>
+    </parameter>
+</environment>

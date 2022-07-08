@@ -1,0 +1,9 @@
+#编写相关基本信息
+db_1:
+  db_host: "114.116.242.198"
+  db_user: "sa"
+  db_password: "TYht@1234"
+  db_name: "estate_test_zws"
+  db_charset: "utf8"
+  db_port: "1433"
+

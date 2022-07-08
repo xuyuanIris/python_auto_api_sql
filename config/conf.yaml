@@ -1,0 +1,11 @@
+
+BASE:
+  # log级别
+  log_level: "debug"
+  # 扩展名
+  log_extension: ".log"
+  test:
+#    211环境
+    url: "http://121.36.92.211:81"
+# 55环境
+#    url: "http://172.19.214.55:8001"
